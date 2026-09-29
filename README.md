@@ -97,23 +97,24 @@ Example item (shortened):
 
 ```json
 {
-  "ad_archive_id": "2329558467805125",
+  "ad_archive_id": "1301132848794012",
   "collation_id": null,
-  "page_id": "15087023444",
-  "page_name": "Nike",
-  "page_profile_uri": "https://www.facebook.com/nike/",
-  "page_like_count": 39518059,
+  "page_id": "721404351056614",
+  "page_name": "IControl: Easy Widgets Themes",
+  "page_profile_uri": "https://www.facebook.com/61578892468353/",
+  "page_like_count": 4713,
   "is_active": true,
-  "started_running": "2026-09-01",
-  "ended": "2026-09-28",
+  "started_running": "2026-05-20",
+  "ended": "2026-09-29",
   "platforms": [
     "FACEBOOK",
-    "INSTAGRAM"
+    "INSTAGRAM",
+    "..."
   ],
-  "display_format": "DPA",
-  "is_dynamic": true,
-  "ad_text": "Get the gear not afraid to put in the work.",
-  "title": "{{product.name}}",
+  "display_format": "IMAGE",
+  "is_dynamic": false,
+  "ad_text": null,
+  "title": "iControl: Easy Widgets Themes",
   "...": "..."
 }
 ```
@@ -187,3 +188,4 @@ Tested with n8n 2.40 (self-hosted).
 
 - 0.1.0: Initial release
 - 0.1.1: First release published from GitHub Actions with an npm provenance statement
+- 0.1.2: Node category renamed to Marketing & Content, the name n8n's verification scanner accepts
