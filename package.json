@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-scrapeunblocker-meta-ad-library",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "n8n community node for the Meta Ad Library Scraper Apify Actor by ScrapeUnblocker: Facebook and Instagram ads with copy, creative URLs, landing page, platforms and run dates as JSON",
 	"license": "MIT",
 	"homepage": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-meta-ad-library#readme",
