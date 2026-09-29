@@ -1,0 +1,57 @@
+{
+	"name": "n8n-nodes-scrapeunblocker-meta-ad-library",
+	"version": "0.1.0",
+	"description": "n8n community node for the Meta Ad Library Scraper Apify Actor by ScrapeUnblocker: Facebook and Instagram ads with copy, creative URLs, landing page, platforms and run dates as JSON",
+	"license": "MIT",
+	"homepage": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-meta-ad-library#readme",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"meta-ad-library",
+		"facebook-ads",
+		"instagram-ads",
+		"competitor-ads",
+		"apify",
+		"scrapeunblocker"
+	],
+	"author": {
+		"name": "ScrapeUnblocker",
+		"email": "sales@scrapeunblocker.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-meta-ad-library.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/ApifyApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/MetaAdLibraryScraper/MetaAdLibraryScraper.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "0.49.1",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^19.0.4",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

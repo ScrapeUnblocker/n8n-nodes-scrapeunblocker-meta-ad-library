@@ -1,0 +1,33 @@
+{
+	"node": "n8n-nodes-scrapeunblocker-meta-ad-library.metaAdLibraryScraper",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Marketing",
+		"Data & Storage"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-meta-ad-library#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-meta-ad-library#readme"
+			}
+		]
+	},
+	"alias": [
+		"meta",
+		"facebook ads",
+		"instagram ads",
+		"ad library",
+		"competitor ads",
+		"ad creatives",
+		"advertising",
+		"scraper",
+		"apify",
+		"scrapeunblocker"
+	]
+}
